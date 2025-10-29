@@ -206,8 +206,7 @@ npx gh-pages -d dist -r https://TU_TOKEN@github.com/TU_USUARIO/TU_REPOSITORIO.gi
 **Ejemplo completo:**
 
 ```bash
-npx gh-pages -d dist -r https://ghp_abc123xyz@github.com/ashmichi1/vista_programas_contacto_corporativo.git
-```
+npx gh-pages -d dist -r https://TU_TOKEN@github.com/TU_USUARIO/TU_REPOSITORIO.git
 
 Deberías ver:
 
