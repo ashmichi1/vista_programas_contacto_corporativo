@@ -91,12 +91,13 @@ export default function VistaProgramasContacto() {
         <section className="bg-[#0f0f0f] border border-gray-800 rounded-lg p-6">
           <h3 className="text-gray-200 font-semibold text-center mb-4">Contacto</h3>
           <form onSubmit={handleSubmit} className="flex flex-col items-center gap-3">
+            <label for="nombres">Nombres: </label>
             <input
               name="nombres"
               value={form.nombres}
               onChange={handleChange}
               className="w-3/4 bg-[#0b0b0b] border border-gray-700 rounded-md px-3 py-2 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-2 focus:ring-vinotinto focus:border-vinotinto"
-              placeholder="NOMBRES"
+              placeholder="Ingrese sus nombres"
               autoComplete="off"
             />
             <input
@@ -104,7 +105,7 @@ export default function VistaProgramasContacto() {
               value={form.apellidos}
               onChange={handleChange}
               className="w-3/4 bg-[#0b0b0b] border border-gray-700 rounded-md px-3 py-2 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-2 focus:ring-vinotinto focus:border-vinotinto"
-              placeholder="APELLIDOS"
+              placeholder="Ingrese sus apellidos"
             />
             <textarea
               name="mensaje"
